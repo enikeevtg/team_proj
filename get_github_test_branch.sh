@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-CURBRANCH=$(git branch | grep "*" | sed 's/* '// )
+CURBRANCH=$(git branch | grep "*" | sed 's/* '// )  # sed is Stream EDitor
 
 git checkout test
 git pull  #from github test branch
