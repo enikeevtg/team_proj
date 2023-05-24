@@ -6,4 +6,4 @@ git checkout test
 git pull  #from github test branch
 git checkout $CURBRANCH
 git merge test
-git push -u origin $CURBRANCH
+git push origin $CURBRANCH
