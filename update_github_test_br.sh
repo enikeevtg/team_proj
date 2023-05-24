@@ -1,9 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 CURBRANCH=$(git branch | grep "*" | sed 's/* '// )
 
 git checkout test
-git pull  #from github test branch
+git merge $CURBRANCH
+git push -u origin test
 git checkout $CURBRANCH
-git merge test
-git push
