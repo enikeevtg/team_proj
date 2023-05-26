@@ -18,17 +18,17 @@ __Содержание__
 2. [Ветвление в Git](#основы-ветвления-и-слияния) \
     2.1 [Ветвление в Git: _git branch/checkout_](#основы-ветвления-и-слияния)  
     2.2 [Основы слияния: _git merge_](#основы-слияния)  
-    2.3 [Основные конфликты слияния (extern)](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F#:~:text=%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D1%8B%20%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F)
+    2.3 [Основные конфликты слияния (external)](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F#:~:text=%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D1%8B%20%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F)
 3. [Управление ветками](#управление-ветками) \
     3.1 [Управление ветками: _git branch -v_](#управление-ветками)  
     3.2 [Переименование ветки: _git branch --move_](#переименование-ветки)
-4. [Работа с ветками (extern)](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8)
+4. [Работа с ветками (external)](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8)
 5. [Удалённые ветки](#удалённые-ветки) \
     5.1 [Отправка изменений: _git push <remote> <branch>_](#отправка-изменений)  
     5.2 [Отслеживание веток: _git checkout -b <branch> <remote>/<branch>_](#отслеживание-веток)  
     5.3 [Получение изменений: _git fetch_](#получение-изменений)  
     5.4 [Удаление веток на удалённом сервере: _git push origin --delete_](#удаление-веток-на-удалённом-сервере)
-6. [Перебазирование (extern)](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9F%D0%B5%D1%80%D0%B5%D0%B1%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+6. [Перебазирование (external)](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9F%D0%B5%D1%80%D0%B5%D0%B1%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 
 
     
