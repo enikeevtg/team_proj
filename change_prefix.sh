@@ -7,13 +7,15 @@ find e_* -type f | sed 'p;s/e_/s21_/' | xargs -n2 mv
 
 for FILE in $(ls | grep -e.sh -e.bak -v)
 do
-  if [ -e $FILE ] ; then
+  if [ -f $FILE ] ; then
   echo "processing "$FILE
   sed -i.bak 's/^e_/s21_/g' $FILE
   sed -i.bak 's/ e_/ s21_/g' $FILE
+  sed -i.bak 's/_e_/_s21_/g' $FILE
   sed -i.bak 's/\"e_/\"s21_/g' $FILE
   sed -i.bak 's/\/e_/\/s21_/g' $FILE
   sed -i.bak 's/(e_/(s21_/g' $FILE
+  sed -i.bak 's/)e_/)s21_/g' $FILE
   sed -i.bak 's/!e_/!s21_/g' $FILE
   sed -i.bak 's/ E_/ S21_/g' $FILE
   sed -i.bak 's/_E_/_S21_/g' $FILE
