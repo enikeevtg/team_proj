@@ -1,5 +1,11 @@
-# team_proj
+# team_project
 Team work training: new branches, parallel coding, pulls, merges.
+
+## Scripts:
+* copy_copy_and_rename.sh
+* get_from_github.sh
+* prefix_for_github.sh
+* update_github.sh
 
 ***
 Materials from
