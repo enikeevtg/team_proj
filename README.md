@@ -1,24 +1,33 @@
 # team_project
 Team work training: new branches, parallel coding, pulls, merges.
 
-## Scripts:
-* copy_copy_and_rename.sh
-* get_from_github.sh
-* prefix_for_github.sh
-* update_github.sh
+***
+
+## Content
+* [Helpful Links](#helpful-links)
+* [Про ветвление в Git](#про-ветвление-в-git)
 
 ***
-Materials from
+
+## Helpful Links
+
+[Хабр: Введение в Bash Shell](https://habr.com/ru/articles/471242/)
+
+[Переименование файлов с помощью find, sed и xargs](https://lisakov.com/blog/renaming-find-sed-xargs-mv/#xargs-1)
+
+[Использование SED. Полезные команды SED](https://kamaok.org.ua/?p=2424)
+
+[Git: курс от JavaScript.ru на YouTube](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+
+***
+
+## Про ветвление в Git
+
+* Materials from
 ["Git Branching"](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
-Материалы с
-["Ветвление в Git"](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9E-%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8-%D0%B2-%D0%B4%D0%B2%D1%83%D1%85-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%85)
-
-Плейлист на YouTube:
-
-[Git: курс от JavaScript.ru](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
-
-***
+* Материалы с
+["Ветвление в Git"](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9E-%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8-%D0%B2-%D0%B4%D0%B2%D1%83%D1%85-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%85)   
 
 __Содержание__
 
@@ -39,9 +48,6 @@ __Содержание__
     5.3 [Получение изменений: _git fetch_](#получение-изменений)  
     5.4 [Удаление веток на удалённом сервере: _git push origin --delete_](#удаление-веток-на-удалённом-сервере)
 6. [Перебазирование (external)](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9F%D0%B5%D1%80%D0%B5%D0%B1%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
-
-
-    
 
 ***
 ## Введение
