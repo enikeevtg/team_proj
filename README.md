@@ -17,7 +17,11 @@ Team work training: new branches, parallel coding, pulls, merges.
 
 [Использование SED. Полезные команды SED](https://kamaok.org.ua/?p=2424)
 
+[Pro Git book (by Scott Chacon and Ben Straub)](https://git-scm.com/book/en/v2)
+
 [Git: курс от JavaScript.ru на YouTube](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+
+[Хабр: Git Rebase: руководство по использованию](https://habr.com/ru/articles/161009/)
 
 ***
 
