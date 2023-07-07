@@ -34,7 +34,13 @@ function usage() {
 }
 
 function man_print() {
-  echo manual will be here!
+  echo "
+  Team working script.
+  
+  Use options [--get][-g] for getting $COMMON_BRANCH last stage from remote.
+
+  Use options [--msg][-m] for updating your own and $COMMON_BRANCH remote branches.
+  "
 }
 
 USER_BRANCH=$(git branch | grep "*" | sed 's/* //' )  # sed is Stream EDitor
